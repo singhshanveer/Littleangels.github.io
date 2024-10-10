@@ -5,6 +5,9 @@
 * License: https://bootstrapmade.com/license/
 */
 
+
+
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -574,29 +577,32 @@ padding-bottom: 15px;
 text-align: justify;
 }
 
-.about button[type="submit"] {
-  border: 3px solid #ef6603;
-  font-weight: 600;
-  margin-left: 0;
-  padding: 4px 10px;
-  color: #000;
-  transition: 0.4s;
-  border-radius: 10px;
-  background: #fff;
+.about .btn .btn-get-started {
+  color: #fff;
+  background: #ef6603;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: 0.5s;
+  border: 2px solid #000;s
 }
 
-.about button[type="submit"]:hover {
-  background: #ef6603;
+.about .btn .btn-get-started:hover {
+  background: #d65a00;
+  border: 2px solid #015b43;
 }
 
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
 .services {
-  background: #f1f5ff;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("../img/bg5.jpg ") top center;
   background-size: cover;
   background-attachment: fixed;
-  padding-bottom: 80px;
+  padding: 60px;
 }
 
 .services .icon-box {
@@ -607,6 +613,7 @@ text-align: justify;
   transition: all 0.3s;
   border-radius: 5px;
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .services .icon-box:hover {
@@ -708,28 +715,123 @@ text-align: justify;
   transform: scale(1.1);
 }
 
+
 /*--------------------------------------------------------------
-# Cta
+# Features Section
 --------------------------------------------------------------*/
-.cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("../img/bg5.jpg ") top center;
-  background-size: cover;
-  background-attachment: fixed;
-  padding: 60px 0;
-}
-
-.cta h3 {
-  color: #fff;
-  font-size: 42px;
+.features h3 {
+  font-size: 32px;
   font-weight: 700;
-  
+  margin-bottom: 60px;
 }
 
-.cta p {
+.features .icon-list{
+margin-bottom: 30px;
+}
+
+
+.features .icon-list i {
+  margin-right: 10px;
+  font-size: 24px;
+  line-height: 1;
+}
+
+.features .icon-list span {
+  font-size: 16px;
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  text-align: justify;
+}
+
+.features .phone-wrap {
+  position: absolute;
+  right: 0;
+}
+
+@media (max-width: 768px) {
+  .features .phone-wrap {
+    position: relative;
+  }
+}
+
+.features .phone-wrap img {
+  width: 340px;
+}
+
+@media (max-width: 992px) {
+  .features .phone-wrap img {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .features .phone-wrap img {
+    width: 100%;
+  }
+}
+
+.features .details {
+  margin-top: 80px;
+  padding: 120px 0;
+  background-color: #f8f8f7;
+}
+
+.features .details h4 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.features .details p {
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.features .details .btn-get-started {
   color: #fff;
+  background: #ef6603;
+  font-family: var(--heading-font);
+  display: inline-block;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  padding: 10px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  border: 2px solid #000;s
 }
 
-.cta .cta-btn {
+.features .details .btn-get-started:hover {
+  background: #d65a00;
+  border: 2px solid #015b43;
+}
+
+
+
+
+/*--------------------------------------------------------------
+# Public Disclouser
+--------------------------------------------------------------*/
+.public{
+   background: #f1f5ff;
+}
+
+.public .content+.content {
+  margin-top: 100px;
+}
+
+.public .content h3 {
+  font-weight: 800;
+  font-size: 45px;
+  color: #2a2c39;
+  margin-top: 25%;
+}
+
+.public .content p{
+  margin: 30px 0px 30px 0;
+}
+
+.public .cta-btn {
+  background: #ef6603;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
@@ -740,12 +842,12 @@ text-align: justify;
   border-radius: 25px;
   transition: 0.5s;
   margin-top: 10px;
-  border: 2px solid #fff;
+  border: 2px solid #000;
   color: #fff;
 }
 
-.cta .cta-btn:hover {
-  background: #009970;
+.public .cta-btn:hover {
+  background: #d65a00;
   border: 2px solid #015b43;
 }
 
