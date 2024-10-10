@@ -415,7 +415,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #ef6603;
+  background-image: linear-gradient(to bottom right, #ffd18e, #d75c03);
   color: #fff;
   text-decoration: none;
 }
