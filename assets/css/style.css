@@ -578,21 +578,24 @@ text-align: justify;
 }
 
 .about .btn .btn-get-started {
-  color: #fff;
-  background: #ef6603;
-  display: inline-block;
-  font-weight: 500;
+  background-image: linear-gradient(to bottom right, #ffd18e, #ef6603);
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
   font-size: 15px;
   letter-spacing: 1px;
+  display: inline-block;
   padding: 10px 20px;
-  border-radius: 50px;
+  border-radius: 25px;
   transition: 0.5s;
-  border: 2px solid #000;s
+  margin-top: 10px;
+  color: #fff;
+
 }
 
 .about .btn .btn-get-started:hover {
-  background: #d65a00;
-  border: 2px solid #015b43;
+  background-image: linear-gradient(to bottom right, #ffd18e, #d75c03);
+ 
 }
 
 /*--------------------------------------------------------------
@@ -787,22 +790,22 @@ margin-bottom: 30px;
 }
 
 .features .details .btn-get-started {
-  color: #fff;
-  background: #ef6603;
-  font-family: var(--heading-font);
-  display: inline-block;
-  font-weight: 500;
+  background-image: linear-gradient(to bottom right, #ffd18e, #ef6603);
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
   font-size: 15px;
   letter-spacing: 1px;
-  padding: 10px 32px;
-  border-radius: 50px;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 25px;
   transition: 0.5s;
-  border: 2px solid #000;s
+  margin-top: 10px;
+  color: #fff;
 }
 
 .features .details .btn-get-started:hover {
-  background: #d65a00;
-  border: 2px solid #015b43;
+  background-image: linear-gradient(to bottom right, #ffd18e, #d75c03);
 }
 
 
@@ -831,24 +834,22 @@ margin-bottom: 30px;
 }
 
 .public .cta-btn {
-  background: #ef6603;
+  background-image: linear-gradient(to bottom right, #ffd18e, #ef6603);
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 15px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 8px 28px;
+  padding: 10px 20px;
   border-radius: 25px;
   transition: 0.5s;
   margin-top: 10px;
-  border: 2px solid #000;
   color: #fff;
 }
 
 .public .cta-btn:hover {
-  background: #d65a00;
-  border: 2px solid #015b43;
+  background-image: linear-gradient(to bottom right, #ffd18e, #d75c03);
 }
 
 
