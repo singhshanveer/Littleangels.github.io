@@ -503,46 +503,46 @@ section {
 
 /*------# View Button--------*/
 .heading .btn {
-  background: #ef6440;
+  background-image: linear-gradient(to bottom right, #ffd18e, #ef6603);
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 15px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 6px 25px;
-  border-radius: 10px;
-  transition: 0.5s;
+  padding: 6px 20px;
+  border-radius: 20px;
+  transition: 0.9s;
   margin-top: 10px;
-  border: 2px solid #743100;
-  color: #fff;
+  color: #fff; 
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
 }
 
 
 .heading .btn:hover {
-  background: #db5c01;
-  border: 2px solid #743100;
+  background-image: linear-gradient(to bottom right, #ffd18e, #d75c03);
 }
 .heading1 .btn {
-  background: #ef6440;
+  background-image: linear-gradient(to bottom right, #ffd18e, #ef6603);
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 15px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 6px 25px;
-  border-radius: 10px;
+  padding: 6px 20px;
+  border-radius: 25px;
   transition: 0.5s;
   margin-top: 10px;
-  border: 2px solid #743100;
-  color: #fff;
+  color: #fff; 
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
 }
 
 
 .heading1 .btn:hover {
-  background: #db5c01;
-  border: 2px solid #743100;
+ background-image: linear-gradient(to bottom right, #ffd18e, #d75c03);
 }
 
 
